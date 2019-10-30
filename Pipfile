@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+cython = "*"
+
+[packages]
+pyproj = "*"
+#GEOS = "==3.7.3"
+netCDF4 = "*"
+requests = "*"
+matplotlib = "*"
+pandas = "*"
+cmocean = "*"
+#cartopy = "==0.17.0"
+xarray = "*"
+
+[requires]
+python_version = "3.6"

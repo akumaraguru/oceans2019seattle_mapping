@@ -1,0 +1,6 @@
+[submodule "external/geos"]
+	path = external/geos
+	url = https://github.com/libgeos/geos
+[submodule "external/cartopy"]
+	path = external/cartopy
+	url = https://github.com/SciTools/cartopy
