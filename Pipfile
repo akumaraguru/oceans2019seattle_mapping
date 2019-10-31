@@ -7,15 +7,17 @@ verify_ssl = true
 cython = "*"
 
 [packages]
-pyproj = "*"
+#cartopy = "==0.17.0"
+cmocean = "*"
 #GEOS = "==3.7.3"
+jupyter = "*"
+matplotlib = "*"
 netCDF4 = "*"
 requests = "*"
-matplotlib = "*"
 pandas = "*"
-cmocean = "*"
-#cartopy = "==0.17.0"
+pyproj = "*"
 xarray = "*"
+scipy = "*"
 
 [requires]
 python_version = "3.6"
